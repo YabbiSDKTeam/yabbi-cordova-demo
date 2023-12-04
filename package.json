@@ -1,6 +1,6 @@
 {
-  "name": "sspnet.tech.app",
-  "displayName": "SspnetExample",
+  "name": "me.yabbi.ads.app",
+  "displayName": "Yabbi Demo App",
   "version": "1.0.0",
   "description": "A sample Apache Cordova application that responds to the deviceready event.",
   "main": "index.js",
@@ -15,8 +15,7 @@
   "devDependencies": {
     "cordova-android": "^10.1.2",
     "cordova-ios": "^6.3.0",
-    "cordova-plugin-add-swift-support": "^2.0.2",
-    "cordova.plugin.yabbi": "file:../plugin"
+    "cordova-plugin-add-swift-support": "^2.0.2"
   },
   "cordova": {
     "platforms": [

@@ -4,4 +4,4 @@
 
 Используйте официальную документацию для интеграции SDK
 
-[Официальная документация](https://mobileadx.gitbook.io/mobileadx/yabbi/dokumentaciya-na-russkom/cordova-plugin/ustanovka-i-nastroika)
+[Официальная документация](https://yabbi.gitbook.io/yabbi-documentation/cordova-plugin)
