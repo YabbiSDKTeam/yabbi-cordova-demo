@@ -2,7 +2,7 @@ document.addEventListener("deviceready", onDeviceReady, false);
 
 function onDeviceReady() {
   try {
-    const adType = window.SspnetCore.INTERSTITIAL;
+    const adType = window.Yabbi.INTERSTITIAL;
     const placementName = EnvironmentVariables.coreInterstitialUnitID;
     const advert = document.querySelector("#advert");
 

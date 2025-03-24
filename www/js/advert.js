@@ -64,24 +64,24 @@ class Advert extends HTMLElement {
     const destroyAdBtn = this.shadowRoot.querySelector("#destroyAdBtn");
 
     loadAdBtn.onClick = () => {
-      if (window.SspnetCore.canLoadAd(adType)) {
+      if (window.Yabbi.canLoadAd(adType)) {
         this.addLog("Ad start to load.");
-        window.SspnetCore.loadAd(adType, placementName);
+        window.Yabbi.loadAd(adType, placementName);
       } else {
         this.addLog("SDK can't start load ad.");
       }
     };
 
     showAdBtn.onClick = () => {
-      if (window.SspnetCore.isAdLoaded(adType)) {
-        window.SspnetCore.showAd(adType, placementName);
+      if (window.Yabbi.isAdLoaded(adType)) {
+        window.Yabbi.showAd(adType, placementName);
       } else {
         this.addLog("Ad is not loaded yet");
       }
     };
 
     destroyAdBtn.onClick = () => {
-      window.SspnetCore.destroyAd(adType, placementName);
+      window.Yabbi.destroyAd(adType, placementName);
       this.addLog("Ad was destroyed.");
     };
   }

@@ -2,7 +2,7 @@ document.addEventListener("deviceready", onDeviceReady, false);
 
 function onDeviceReady() {
   try {
-    const adType = window.SspnetCore.REWARDED;
+    const adType = window.Yabbi.REWARDED;
     const placementName = EnvironmentVariables.coreRewardedUnitID;
     const advert = document.querySelector("#advert");
 

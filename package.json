@@ -14,8 +14,8 @@
   "license": "Apache-2.0",
   "devDependencies": {
     "cordova-android": "^13.0.0",
-    "cordova.plugin.sspnet": "^1.5.0",
-    "cordova.plugin.yabbi": "^1.5.0"
+    "cordova.plugin.sspnet": "^1.5.1",
+    "cordova.plugin.yabbi": "^1.5.1"
   },
   "cordova": {
     "plugins": {

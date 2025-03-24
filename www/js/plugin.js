@@ -4,14 +4,14 @@ function onDeviceReady() {
   try {
     const publisherID = EnvironmentVariables.publisherID;
 
-    window.SspnetCore = cordova.require("cordova.plugin.sspnet.SspnetCore");
+    window.Yabbi = cordova.require("cordova.plugin.yabbi.Yabbi");
 
-    SspnetCore.enableDebug(true);
-    window.SspnetCore.initialize(publisherID, function (error) {
+    Yabbi.enableDebug(true);
+    window.Yabbi.initialize(publisherID, function (error) {
       if (error) {
         console.error("Plugin initialization error:", error);
       } else {
-        const version = window.SspnetCore.version;
+        const version = window.Yabbi.version;
         console.log(`Plugin successfully initialized (${version})`);
       }
     });

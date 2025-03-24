@@ -2,16 +2,16 @@ document.addEventListener("deviceready", onDeviceReady, false);
 
 function onDeviceReady() {
   try {
-    const adType = window.SspnetCore.BANNER;
+    const adType = window.Yabbi.BANNER;
     const placementName = EnvironmentVariables.coreBannerUnitID;
     const advert = document.querySelector("#advert");
 
     advert.setAttribute("placementname", placementName);
     advert.setAttribute("adtype", adType);
 
-    if (window.SspnetCore) {
+    if (window.Yabbi) {
       const showCloseButton = true;
-      window.SspnetCore.setBannerCustomSettings(showCloseButton);
+      window.Yabbi.setBannerCustomSettings(showCloseButton);
     }
 
     window.addEventListener("onBannerLoaded", function (adInfo) {
