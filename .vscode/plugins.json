@@ -1,1 +1,1 @@
-{"plugins":["cordova.plugin.yabbi","cordova.plugin.sspnet"]}
+{"plugins":["cordova.plugin.sspnet","cordova.plugin.yabbi"]}

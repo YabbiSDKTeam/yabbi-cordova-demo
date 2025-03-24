@@ -20,8 +20,6 @@ class AppBar extends HTMLElement {
 
   render() {
     const title = this.getAttribute("title") || "";
-    // Если атрибут "show-back-button" отсутствует, кнопка отображается по умолчанию.
-    // Если атрибут присутствует и его значение равно "false", кнопка скрывается.
     const showBackButton =
       !this.hasAttribute("show-back-button") ||
       this.getAttribute("show-back-button") !== "false";
