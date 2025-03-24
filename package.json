@@ -13,18 +13,16 @@
   "author": "Apache Cordova Team",
   "license": "Apache-2.0",
   "devDependencies": {
-    "cordova-android": "^10.1.2",
-    "cordova-ios": "^6.3.0",
-    "cordova-plugin-add-swift-support": "^2.0.2",
-    "cordova.plugin.yabbi": "^1.1.0"
+    "cordova-android": "^13.0.0",
+    "cordova.plugin.sspnet": "^1.5.0",
+    "cordova.plugin.yabbi": "^1.5.0"
   },
   "cordova": {
-    "platforms": [
-      "ios",
-      "android"
-    ],
     "plugins": {
       "cordova.plugin.yabbi": {}
-    }
+    },
+    "platforms": [
+      "android"
+    ]
   }
 }
