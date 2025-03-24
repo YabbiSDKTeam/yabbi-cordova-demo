@@ -1,1 +1,1 @@
-{"plugins":["cordova.plugin.sspnet","cordova.plugin.yabbi"]}
+{"plugins":["cordova.plugin.sspnet","cordova.plugin.yabbi","cordova-plugin-add-swift-support"]}
