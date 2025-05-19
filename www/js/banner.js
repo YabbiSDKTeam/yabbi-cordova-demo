@@ -11,7 +11,14 @@ function onDeviceReady() {
 
     if (window.Yabbi) {
       const showCloseButton = true;
-      window.Yabbi.setBannerCustomSettings(showCloseButton);
+      const bannerPosition = window.Yabbi.BANNER_POSITION_BOTTOM;
+      const refreshIntervalSeconds = 10;
+
+      window.Yabbi.setBannerCustomSettings(
+        showCloseButton,
+        bannerPosition,
+        refreshIntervalSeconds
+      );
     }
 
     window.addEventListener("onBannerLoaded", function (adInfo) {
